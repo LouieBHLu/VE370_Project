@@ -109,7 +109,7 @@ countArray:
         addi $s3, $s1, -1       # $s3(i) = numElements - 1
         addi $s4, $0, 0         # $s4(cnt) = 0
 
-countArrayFor:
+Loop:
         addi $t0, $0, 0         # wait for delay
         slt $t0, $s3, $0        # $t0 = i < 0
         bne $t0, $0, LoopEnd
@@ -135,7 +135,7 @@ nextLoop:
         addi $t0, $0, 0         # wait for delay
         add $s4, $s4, $v0       # cnt += $v0
         addi $s3, $s3, -1       # i--
-        j countArrayFor         # jump to for begin
+        j Loop         # jump to for begin
         addi $t0, $0, 0         # wait for delay
 
 LoopEnd:

@@ -67,17 +67,25 @@ for i in range(size):
     ifile.write('   addi $t0, $0, %2d    # $t0 = %d\n' % (Arr[i], Arr[i]))
     ifile.write('   sw $t0, %3d($s4)    # testArray[%d] = $t0\n' % (i * 4, i))
 ```
-Then I called the function countArray to get the value of hotDay, comfortDay, and substract them from total size to get the value of coldDay.
+Then I called the function countArray to get the value of hotDay, comfortDay, and substract them from total size to get the value of coldDay. I store the result of comfortDay, hotDay and coldDay respectively into register **s3, s5, s6**.
 
-##### 2.3 hotDay and comfortDay funciton
+##### 2.3 countArray function
 
-​	In these two functions, I runs some condition statements to get the final results. In comfortDay function, I use "and" instruction to identify if "A[i]" is in the range that 5 < A[i] < 30
+​	I save the value of register **s1~s4** and **ra**. Then I wrote a loop function called "Loop" to get run the counting process. After the loop ends, I load the value of register **ra** to jump back to the main function.
+
+##### 2.4 hotDay and comfortDay funciton
+
+​	In these two functions, I runs some condition statements to get the final results. In comfortDay function, I use "and" instruction to identify if "A[i]" is in the range that 5 < A[i] < 30.
 
 ### 3 Result
 
-​	The array I use have the following data: [25, 47, 46, -7, -7, 9, -18, 53, 16, 15, 18, -17, -7, 15, 37, 24, 53, 53, -16, 32, 10, 11, 26, 35, -15, 24, 2, -1, -4, 34].
+​	The array I use have the following data: [-25, 47, 46, -7, -7, 9, 18, 53, 16, 15, 18, 17, 7, 15, 37, 24, 53, 53, 16, 32, 10, 11, 26, 35, 15, 24, 2, 1, 4, 34]. The simulation result is shown in the figure below (Figure 1).
 
+![P1_photo](C:\Users\lenovo\Desktop\JI 2020 Fall\VE370\Projects\P1\P1_photo.png)
+<center><b>Figure 1. Simulation Result</b></center>
 
+​	From Figure 1, there are total 15 comfortdays, 6 colddays and 9 hotdays. 
 
+### 4 Conclusion
 
-
+​	Overall, there is one issue I want to bring up: the problem with j, jar and jr. At first, it really bothers me a lot due to strange mistakes using j-instructions. Later I know that two non-meaning instruction must be put in front of and behind one j-instruction to prevent errors mentioned above.

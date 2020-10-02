@@ -36,13 +36,26 @@ int countArray(int A[], int numElements, int cntType){
     return cnt;
 }
 
+
 int main(int argc, char const *argv[]){
-    int size = 6; //determine the size of the array here
-    int hotDay, coldDay, comfortDay = 0;
-    int tempArray[size] = {30, 25, -6, 1, 45, 20};//compose your own array here
-    hotDay = countArray(tempArray, size, 1);
-    coldDay = countArray(tempArray, size, -1);
-    comfortDay = countArray(tempArray, size, 0);
+    // int size = 6; //determine the size of the array here
+    // int hotDay, coldDay, comfortDay = 0;
+    // int tempArray[size] = {30, 25, -6, 1, 45, 20};//compose your own array here
+    // hotDay = countArray(tempArray, size, 1);
+    // coldDay = countArray(tempArray, size, -1);
+    // comfortDay = countArray(tempArray, size, 0);
+    int cold = 0;
+    int hot = 0;
+    int comfort = 0;
+    int error = 0;
+    int a[30] = {-25, 47, 46, -7, -7, 9, 18, 53, 16, 15, 18, 17, 7, 15, 37, 24, 53, 53, 16, 32, 10, 11, 26, 35, 15, 24, 2, 1, 4, 34};
+    for(int i = 0; i < 30; i++){
+        if(a[i] <= 5) cold++;
+        else if(a[i] >= 30) hot++;
+        else if(a[i] < 0) error++;
+        else comfort++;
+    }
+    cout << "Hot: " << hot << "\n" << "Cold: " << cold << "\n" << "Comfort: " << comfort << "\n" << "Error: " << error << endl;
 }
 
 

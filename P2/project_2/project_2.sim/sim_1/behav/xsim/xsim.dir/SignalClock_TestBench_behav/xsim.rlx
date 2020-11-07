@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7094318409889708260  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 6b109f47e5464ff9b121623c3eb691ca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SignalClock_TestBench_behav xil_defaultlib.SignalClock_TestBench xil_defaultlib.glbl" , 
+    buildDate : "Aug  5 2020" , 
+    buildTime : "23:19:43" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2020.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/SignalClock_TestBench_behav/xsimk.exe\"   \"xsim.dir/SignalClock_TestBench_behav/obj/xsim_0.win64.obj\" \"xsim.dir/SignalClock_TestBench_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2020.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

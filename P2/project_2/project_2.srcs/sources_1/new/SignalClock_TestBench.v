@@ -29,7 +29,7 @@ module Single_Clock_TestBench;
 
 	initial begin
 	#0	clk = 0; $display("Start Simulation of Single Cycle! The result is:");
-    #840 $stop;
+    #920 $stop;
 	end
 
     always #20 begin
@@ -41,6 +41,6 @@ module Single_Clock_TestBench;
         $display("----------------------------------------------------------");
         clk = ~clk;
         i = i + 20;
-        if(i == 820) $display("Exit! Simulation Done!");
+        if(i == 900) $display("Exit! Simulation Done!");
     end
 endmodule

@@ -47,12 +47,13 @@ module instructionMEM(address, instruction);
             'd13: instruction = 32'b00010010000100110000000000001010; //beq $s0, $s3, error2
             'd14: instruction = 32'b00000010010100011010000000101010; //slt $s4, $s2, $s1 (Last)
             //remove 3 addi $t0, $zero, 0x20  00100000 00001000 00000000 00100000
-            'd15: instruction = 32'b00010010100000000000000000001111; //beq $s4, $0, EXIT
+            'd15: instruction = 32'b00010010100000000000000000001111; //beq $s4, $0, NEXT
             'd16: instruction = 32'b00000010001000001001000000100000; //add $s2, $s1, $0
             'd17: instruction = 32'b00001000000000000000000000001110; //j Last
-            //new added instruction to test bne
-            default: instruction <= 32'b00100000000010000000000000100000; // (Exit)
-        endcase
+            'd31: instruction = 32'b00010100000101000000000000001111; //bne $s4, $0, EXIT
+            'd32: instruction = 32'b00010110010101000000000000001111; //bne $s4, $s2, EXIT
+            default: instruction <= 32'b00100000000010000000000000100000; // (Exit)        \
+            endcase
         
 endmodule
 `endif

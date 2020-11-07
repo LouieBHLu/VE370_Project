@@ -1,6 +1,6 @@
 Vivado Simulator 2020.1.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 6b109f47e5464ff9b121623c3eb691ca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SignalClock_TestBench_behav xil_defaultlib.SignalClock_TestBench xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 6b109f47e5464ff9b121623c3eb691ca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Single_Clock_TestBench_behav xil_defaultlib.Single_Clock_TestBench xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -19,6 +19,6 @@ Compiling module xil_defaultlib.ALU
 Compiling module xil_defaultlib.Mux_5
 Compiling module xil_defaultlib.Mux_32
 Compiling module xil_defaultlib.Single_Cycle
-Compiling module xil_defaultlib.SignalClock_TestBench
+Compiling module xil_defaultlib.Single_Clock_TestBench
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot SignalClock_TestBench_behav
+Built simulation snapshot Single_Clock_TestBench_behav

@@ -1,0 +1,26 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sim_1/new/testbench.v,1605096356,verilog,,,,test_bench,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/EX_MEM_regf.v,1604237217,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/Hazard_detection.v,,EX_MEM_regf,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/Hazard_detection.v,1604742762,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/ID_EX_regf.v,,hazard_detection,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/ID_EX_regf.v,1604236374,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/IF_ID_regf.v,,ID_EX_regf,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/IF_ID_regf.v,1604235608,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/MEM_WB_regf.v,,IF_ID_regf,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/MEM_WB_regf.v,1604237649,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/adder.v,,MEM_WB_regf,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/adder.v,1604113297,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/alu.v,,adder,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/alu.v,1604115989,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/comparator.v,,alusimple,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/comparator.v,1604237660,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/control.v,,comparator,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/control.v,1604215094,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/datamem.v,,controller,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/datamem.v,1604663127,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/extender.v,,data_mem,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/extender.v,1604153793,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/forwarding.v,,extender,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/forwarding.v,1604239295,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/instmem.v,,forwarding,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/instmem.v,1605096841,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v,,inst_mem,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v,1604124991,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux41.v,,mux21,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux41.v,1604234730,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v,,mux41,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v,1604569814,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/reg.v,,pipeline_processor,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/reg.v,1604198977,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/regfile.v,,register,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/regfile.v,1604661972,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter.v,,register_file,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter.v,1604132138,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter2.v,,shifter1,,,,,,,,
+E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter2.v,1604132729,verilog,,E:/2020 autumn/VE370/projects/project_2_pipeline/project_2_pipeline.srcs/sim_1/new/testbench.v,,shifter2,,,,,,,,

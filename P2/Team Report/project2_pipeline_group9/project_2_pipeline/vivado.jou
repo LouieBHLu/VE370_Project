@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Nov 12 18:23:09 2020
+# Process ID: 15856
+# Current directory: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11140 C:\Users\lenovo\Documents\VE370\Projects\VE370_Project\P2\project2_pipeline_simandimple_group9(1)\project_2_pipeline\project_2_pipeline.xpr
+# Log file: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/vivado.log
+# Journal file: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1

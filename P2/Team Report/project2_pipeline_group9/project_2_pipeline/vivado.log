@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Nov 12 18:23:09 2020
+# Process ID: 15856
+# Current directory: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11140 C:\Users\lenovo\Documents\VE370\Projects\VE370_Project\P2\project2_pipeline_simandimple_group9(1)\project_2_pipeline\project_2_pipeline.xpr
+# Log file: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/vivado.log
+# Journal file: C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline'
+INFO: [Project 1-313] Project file moved from 'E:/2020 autumn/VE370/projects/project_2_pipeline' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'project_2_pipeline.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1026.352 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: pipeline_processor
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1333.379 ; gain = 258.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pipeline_processor' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux41' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux41.v:1]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux41' (1#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux41.v:1]
+INFO: [Synth 8-6157] synthesizing module 'register' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'register' (2#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (3#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'inst_mem' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/instmem.v:1]
+WARNING: [Synth 8-6896] loop limit (65536) exceeded inside initial block, initial block items will be ignored [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/instmem.v:12]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'inst_mem' (4#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/instmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/IF_ID_regf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_regf' (5#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/IF_ID_regf.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter1' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shifter1' (6#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (7#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux21' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+	Parameter width bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux21' (8#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+INFO: [Synth 8-6157] synthesizing module 'extender' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/extender.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'extender' (9#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/extender.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter2' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shifter2' (10#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/shifter2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (11#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'comparator' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/comparator.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'comparator' (12#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/comparator.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hazard_detection' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/Hazard_detection.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hazard_detection' (13#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/Hazard_detection.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/ID_EX_regf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX_regf' (14#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/ID_EX_regf.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux21__parameterized0' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux21__parameterized0' (14#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alusimple' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alusimple' (15#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux21__parameterized1' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux21__parameterized1' (15#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/mux21.v:1]
+INFO: [Synth 8-6157] synthesizing module 'forwarding' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/forwarding.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'forwarding' (16#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/forwarding.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/EX_MEM_regf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_regf' (17#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/EX_MEM_regf.v:1]
+WARNING: [Synth 8-689] width (5) of port connection 'I5_o' does not match port width (32) of module 'EX_MEM_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v:79]
+INFO: [Synth 8-6157] synthesizing module 'data_mem' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/datamem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'data_mem' (18#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/datamem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/MEM_WB_regf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_regf' (19#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/MEM_WB_regf.v:1]
+WARNING: [Synth 8-689] width (5) of port connection 'I6_o' does not match port width (32) of module 'MEM_WB_regf' [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_processor' (20#1) [C:/Users/lenovo/Documents/VE370/Projects/VE370_Project/P2/project2_pipeline_simandimple_group9(1)/project_2_pipeline/project_2_pipeline.srcs/sources_1/new/pipeline.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1707.063 ; gain = 632.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:45 . Memory (MB): peak = 1707.063 ; gain = 632.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:45 . Memory (MB): peak = 1707.063 ; gain = 632.406
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1707.063 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2449.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:44 ; elapsed = 00:01:32 . Memory (MB): peak = 2457.215 ; gain = 1382.559
+48 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:49 ; elapsed = 00:01:39 . Memory (MB): peak = 2457.215 ; gain = 1430.863
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 18:31:26 2020...

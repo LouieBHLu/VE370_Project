@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Nov 19 16:19:36 2020
+# Process ID: 27424
+# Current directory: D:/JI 2020 Fall/VE370/Projects/VE370_Project/P2/Individual/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8232 D:\JI 2020 Fall\VE370\Projects\VE370_Project\P2\Individual\project_2\project_2.xpr
+# Log file: D:/JI 2020 Fall/VE370/Projects/VE370_Project/P2/Individual/project_2/vivado.log
+# Journal file: D:/JI 2020 Fall/VE370/Projects/VE370_Project/P2/Individual/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/JI 2020 Fall/VE370/Projects/VE370_Project/P2/Individual/project_2/project_2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Single_Clock_TestBench.tcl
+close_sim

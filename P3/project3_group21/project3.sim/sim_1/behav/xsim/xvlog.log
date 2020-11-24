@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/cache_b2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_b2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_b2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p3_b2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_test_b2

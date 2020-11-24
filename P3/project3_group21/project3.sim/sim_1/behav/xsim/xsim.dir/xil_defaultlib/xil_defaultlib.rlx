@@ -1,0 +1,18 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_a1.v,1606055730,verilog,,,,cache_test_a1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_a2.v,1606056113,verilog,,,,cache_test_a2,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b1.v,1606055007,verilog,,,,cache_test_b1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b2.v,1606056700,verilog,,,,cache_test_b2,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/Cache_b1.v,1605960982,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v,,cache_b1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/cache_a1.v,1606051051,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v,,cache_a1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/cache_a2.v,1606051191,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v,,cache_a2,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/cache_b2.v,1606051365,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v,,cache_b2,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/main_memory.v,1605709066,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_b2.v,,main_memory,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_a1.v,1606053882,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_a1.v,,p3_a1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_a2.v,1606056140,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_a2.v,,p3_a2,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_b1.v,1606053178,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b1.v,,p3_b1,,,,,,,,
+C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sources_1/new/p3_b2.v,1606051476,verilog,,C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b2.v,,p3_b2,,,,,,,,

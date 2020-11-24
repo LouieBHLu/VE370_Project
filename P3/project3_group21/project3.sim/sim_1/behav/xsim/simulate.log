@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+hit_miss0
+hit_miss1
+read_data: 0x00
+hit_miss1
+read_data: 0xff
+first byte of main memory:0x00
+hit_miss0
+hit_miss1
+read_data: 0xff
+hit_miss0
+hit_miss0
+first byte of main memory:0xff
+$stop called at time : 100 ns : File "C:/Users/xujq/Desktop/VE370/Projects/project3/project3/project3.srcs/sim_1/new/cache_test_b2.v" Line 15
